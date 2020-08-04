@@ -1,0 +1,53 @@
+/* GLOBAL */
+.flex {
+    display: flex;
+}
+
+.white {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* Navigation bar section */
+.first-navbar {
+    justify-content: space-between;
+    background-color: #131313;
+    padding: 5px;
+}
+
+.first-navbar li a {
+    color: #555;
+}
+
+.news {
+    color: #fff !important;
+}
+
+.first-navbar .right li{
+    margin: 0 8px;
+
+}
+
+.first-navbar .left li {
+    margin: 0 8px;
+}
+
+.fa-caret-down {
+    color: #555;
+}
+
