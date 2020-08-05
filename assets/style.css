@@ -49,13 +49,27 @@ nav li {
 
 .second-nav-bar {
     justify-content: space-between;
-    padding: 10px 20px;
+    padding-top: 20px;
+    margin-left: 20px;
     position: fixed;
 }
 
 .second-nav-bar li a,
 .fa-search {
     color: #b3b3b3;
+}
+
+.fa-search {
+    transform: scaleX(-1);
+    left: 540px;
+}
+
+.second-nav-bar li a:hover {
+    color: #000;
+}
+
+.fa-search:hover {
+    color: #6b6969;
 }
 
 /* SHOWCASE SECTION  */
@@ -106,7 +120,7 @@ nav li {
     height: 210px;
 }
 
-.aside-showcase h1 {
+/* .aside-showcase h1 {
     padding-top: 150px;
     font-size: 27px;
-}
+} */
