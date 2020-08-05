@@ -1,4 +1,4 @@
-/* GLOBAL */
+/*GLOBAL*/
 .flex {
     display: flex;
 }
@@ -52,6 +52,7 @@ nav li {
     padding-top: 20px;
     margin-left: 20px;
     position: fixed;
+
 }
 
 .second-nav-bar li a,
@@ -72,55 +73,59 @@ nav li {
     color: #6b6969;
 }
 
+
 /* SHOWCASE SECTION  */
-.showcase-div,
-.aside-showcase-1,
-.aside-showcase-2 {
-    background-position: center;
-    background-repeat: no-repeat;
+
+.image-positioning {
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.showcase {
-    grid-template-columns: 70% 30%;
-    margin-top: 70px;
-    font-family: avalon sans-serif;
+.showcase-section {
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
 }
 
-.showcase-div {
-    width: 98%;
-    margin: 0 auto;
+.main-showcase {
     background-image: url(./images/main-showcase-image.jpeg);
-}
-
-.showcase-div h1 {
-    font-size: 56px;
-    padding-top: 300px;
-}
-
-.showcase-img {
     width: 99%;
-    height: 425px;
+    height: 500px;
 }
 
-.aside-showcase-1 {
-    background-image: url(./images/second-showcase-image.png);
-    width: 97%;
-    height: 210px;
+.main-showcase img {
+    width: 100%;
+    opacity: 0.8;
 }
 
-.aside-showcase-1 h1 {
-    padding-top: 130px;
-    font-size: 27px;
+.aside-showcase {
+    grid-template-rows: 1fr 1fr;
 }
 
-.aside-showcase-2 {
+.aside-showcase-img {
     background-image: url(./images/third-image.jpg);
-    width: 97%;
-    height: 210px;
+    height: 245px;
+    width: 99%;
+    background: linear-gradient(27deg, rgba(115, 145, 146, 1) 0D#1010%, rgba(139, 136, 136, 1) 0%, rgba(59, 58, 59, 1) 0%, rgba(58, 57, 58, 1) 0%, rgba(56, 55, 56, 1) 0%, rgba(53, 52, 53, 1) 100%, rgba(77, 74, 77, 0.9430147058823529) 100%, rgba(0, 212, 255, 1) 100%, rgba(21, 21, 22, 1) 100%);
 }
 
-/* .aside-showcase h1 {
+.bottom {
+    margin-bottom: 10px;
+}
+
+.main-showcase h1 {
+    font-size: 56px;
+
+}
+
+.main-showcase-content {
+    margin: 320px 0 0 10px;
+}
+
+.aside-showcase-content h1 {
+    font-size: 28px;
+}
+
+.aside-showcase-content {
     padding-top: 150px;
-    font-size: 27px;
-} */
+}
