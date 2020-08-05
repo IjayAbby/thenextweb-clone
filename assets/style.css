@@ -1,4 +1,8 @@
 /*GLOBAL*/
+body {
+    height: 3000px;
+}
+
 .flex {
     display: flex;
 }
@@ -39,7 +43,8 @@ a {
 }
 
 .first-navbar li a,
-.fa-caret-down {
+.fa-caret-down,
+.funding-links {
     color: #555;
 }
 
@@ -74,8 +79,7 @@ nav li {
 }
 
 .second-nav-bar li a:hover,
-.latest-news a:hover
- {
+.latest-news a:hover {
     color: #000;
 }
 
@@ -140,18 +144,25 @@ nav li {
     padding-top: 150px;
 }
 
- /* LATEST NEWS SECTION */
+/* LATEST NEWS SECTION */
 
- .latest-news-section {
+.latest-news-section {
     margin: 50px;
- }
+}
 
- .latest-news h1 a {
+.latest-news h1 a,
+.latest-funding-title h4 a {
     font-size: 28px;
     font-weight: bold;
- }
+}
 
-.latest-news-grid-container {
+.latest-news-section h1,
+.latest-funding-title-links {
+    padding: 20px 0;
+}
+
+.latest-news-grid-container,
+.latest-funding-contents {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 20px;
 }
@@ -168,6 +179,7 @@ nav li {
 .latest-news-content h4 {
     font-weight: bold;
 }
+
 .latest-news-content p a,
 span {
     color: #d0d0d0;
@@ -175,4 +187,64 @@ span {
 
 .latest-news-content p a:hover {
     color: #000;
+}
+
+/* LATEST FUNDING ROUNDS */
+.latest-funding-rounds {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.latest-funding-title-links {
+    justify-content: space-between;
+}
+
+.latest-funding-links li a {
+    margin-right: 5px;
+}
+
+.latest-funding-contents {}
+
+.funding-grid {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.funding-grid img {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.funding-grid hr {
+    background-color: #ffc2bd;
+}
+
+.weezy {
+    background-color: #fe4736;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.seed-funds {
+    background-color: #ffe8e5;
+    padding: 11px 0;
+    text-align: center;
+}
+
+.seed-funds-div2,
+.seed-fund-details {
+    font-size: 13px;
+}
+
+
+.seed-funds-div2,
+.seed-fund-details {
+    height: 50px;
+    background-color: #fffaf8;
+}
+
+.seed-funds-div2 p {
+    padding: 10px 0 0 0;
 }
