@@ -2,6 +2,7 @@
 body {
     height: 3000px;
 }
+
 .flex {
     display: flex;
 }
@@ -81,8 +82,7 @@ nav li {
 .latest-news a:hover,
 .latest-news-content p a:hover,
 .most-popular-image a:hover,
-.list-items li a:hover 
-{
+.list-items li a:hover {
     color: #000;
 }
 
@@ -94,8 +94,7 @@ nav li {
 /* SHOWCASE SECTION  */
 
 .image-positioning,
-.most-popular-image
-{
+.most-popular-image {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -157,7 +156,8 @@ nav li {
 
 .latest-news h1 a,
 .latest-funding-title h4 a,
-.hard-fork h2 a {
+.hard-fork h2 a,
+.latest-deals-section h4 {
     font-size: 28px;
     font-weight: bold;
 }
@@ -168,7 +168,8 @@ nav li {
 }
 
 .latest-news-grid-container,
-.latest-funding-contents {
+.latest-funding-contents,
+.latest-deals-container {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 20px;
 }
@@ -188,12 +189,17 @@ nav li {
 
 .latest-news-content p a,
 span,
-.most-popular-image a, span
-{
+.most-popular-image a,
+span {
     color: #d0d0d0;
 }
 
 /* LATEST FUNDING ROUNDS */
+.latest-deals-section {
+    width: 96%;
+    margin: 0 auto;
+}
+
 .latest-funding-rounds {
     width: 95%;
     margin: 0 auto;
@@ -269,9 +275,8 @@ span,
 }
 
 .most-popular-section h2 img,
-.latest-funding-title h4 img, 
-.latest-news h1 img
-{
+.latest-funding-title h4 img,
+.latest-news h1 img {
     width: 20px;
 }
 
@@ -285,6 +290,7 @@ span,
 .most-popular-contents {
     padding: 110px 0;
 }
+
 .most-popular-image h3 {
     font-size: 20px;
     font-weight: bold;
@@ -307,19 +313,22 @@ span,
     background-color: #fff2f1;
 }
 
-.contents h3 a{
+.contents h3 a {
     font-weight: bold;
 }
 
-.contents h3 a:hover
-{
+.contents h3 a:hover {
     text-decoration: underline;
-} 
+}
+
 .latest-heading {
     padding: 0 0 5px 0;
 }
 
-.list-items ,br,li,a{
+.list-items,
+br,
+li,
+a {
     width: 94%;
 }
 
@@ -333,4 +342,35 @@ span,
 
 .list-items hr {
     opacity: 0.2;
+}
+
+
+/* Latest Deals */
+.latest-deals-section h4 {
+    margin-left: 60px;
+}
+
+.latest-deals-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.latest-deals-img-div {
+    background-image: url(./images/deals-ribbon.svg);
+    background-position: center center;
+}
+
+.latest-deals-img {
+    width: 94%;
+}
+
+.latest-deals-content {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.latest-deals-content h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
