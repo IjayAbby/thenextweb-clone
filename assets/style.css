@@ -121,9 +121,33 @@ a {
     background-repeat: no-repeat;
 }
 
+.logo-image {
+    font: 33px;
+    bottom: 390px;
+    width: 10px;
+    height: 100px;
+    right: 200px;
+}
+
 .showcase-section {
     grid-template-columns: 2fr 1fr;
     margin-top: 50px;
+}
+
+
+
+.main-showcase {
+    background-image: url(./images/main-showcase-image.jpeg);
+    width: 99%;
+    width: 99%;
+    height: 500px;
+    height: 500px;
+    background: linear-gradient(337deg,
+            rgba(0, 0, 0, 0.9) 30%,
+            rgba(220, 20, 20, 0.6) 50%),
+        url(./images/main-showcase-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-showcase {
@@ -228,12 +252,6 @@ span {
 
 .latest-funding-title-links {
     justify-content: space-between;
-}
-
-
-
-.latest-funding-links li a {
-    /*margin-right: 5px;*/
 }
 
 .latest-funding-links ul li,
