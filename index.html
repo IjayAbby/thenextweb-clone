@@ -18,13 +18,13 @@
                 <a class="news" href="#">News</a>
             </li>
             <li>
-                <a href="#">Events</a>
-                <i class="fas fa-caret-down .gray"></i>
+                <a class="flex" href="#">Events <i class="fas fa-caret-down .gray"></i></a>
+
 
             </li>
             <li>
-                <a href="#">Business</a>
-                <i class="fas fa-caret-down"></i>
+                <a class="flex" href="#">Business <i class="fas fa-caret-down"></i></a>
+
             </li>
             <li>
                 <a href="#">AMAs</a>
@@ -51,39 +51,49 @@
             </li>
         </ul>
     </nav>
-    <nav class="second-nav-bar flex white">
-        <ul class="flex">
-            <li>
-                <a href="#">LATEST</a>
-            </li>
-            <li>
-                <a href="#">HARD FORK</a>
-            </li>
-            <li>
-                <a href="#">PLUGGED</a>
-            </li>
-            <li>
-                <a href="#">README</a>
-            </li>
-            <li>
-                <a href="#">GROWTH QUARTERS</a>
-            </li>
-            <li>
-                <a href="#">SHIFT</a>
-            </li>
-            <li>
-                <a href="#">NEUTRAL</a>
-            </li>
-        </ul>
-        <div>
-            <ul class="search flex">
+
+    <!-- second- navigation bar -->
+    <div class="second-nav-bar flex white grid">
+        <div class="second-nav-bar-div">
+            <div class="second-nav-links">
+                <ul class="flex">
+                    <li>
+                        <a href="#">LATEST</a>
+                    </li>
+                    <li class="nav-li relative">
+                        <a href="#">HARD FORK</a>
+                    </li>
+                    <li class="nav-li relative">
+                        <a href="#">PLUGGED</a>
+                    </li>
+                    <li class="nav-li relative">
+                        <a href="#">README</a>
+                    </li>
+                    <li class="nav-li relative">
+                        <a href="#">GROWTH QUARTERS</a>
+                    </li>
+                    <li class="nav-li relative">
+                        <a href="#">SHIFT</a>
+                    </li>
+                    <li class="nav-li relative">
+                        <a href="#">NEUTRAL</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <ul class="search flex relative">
                 <li>
-                    <i class="fas fa-search relative"></i>
+                    <a href=""><i class="fas fa-search relative"></i></a>
                 </li>
             </ul>
+
+
         </div>
 
-    </nav>
+
+
+    </div>
 
 
     <!-- SHOWCASE SECTION  -->
@@ -900,49 +910,60 @@
 
     <!-- FOOTER SECTION. -->
     <footer class="black">
-            <section class="section-one">
-                <div class="social-icons-div">
-                    <div class="flex social-sites-icons">
-                        <a href="#">
-                            <i class="white fab fa-facebook"></i>
-                        </a>
-                        <a href="#">
-                            <i class="white fab fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                            <i class="white fab fa-youtube"></i>
-                        </a>
-                        <a href="#">
-                            <i class="white fab fa-instagram"></i>
-                        </a>
-                        <a href="#">
-                            <i class="white fab fa-pinterest"></i>
-                        </a>
-                        <a href="#">
-                            <i class="white fas fa-rss"></i>
-                        </a>
-                        <a href="#">
-                            <i class="white far fa-envelope"></i>
-                        </a>
+        <section class="section-one">
+            <div class="social-icons-div">
+                <div class="flex social-sites-icons">
+                    <a href="#">
+                        <i class="white fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="white fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="white fab fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="white fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="white fab fa-pinterest"></i>
+                    </a>
+                    <a href="#">
+                        <i class="white fas fa-rss"></i>
+                    </a>
+                    <a href="#">
+                        <i class="white far fa-envelope"></i>
+                    </a>
 
-                    </div>
                 </div>
-                <div class="flex">
-                    <h3>EVENTS</h3>
-                    <h3>ABOUT</h3>
-                    <h3>ADVERTISE</h3>
-                    <h3>JOBS</h3>
-                    <h3>CONTACT</h3>
+            </div>
+            <div class="footer-ul-div flex white relative">
+                <div class="footer-ul-links ">
+                    <ul class="flex ">
+                        <li><a class="" href="">EVENTS</a> </li>
+                        <li><a href="">ABOUT</a> </li>
+                        <li><a href="">ADVERTISE</a> </li>
+                        <li><a href="">JOBS</a> </li>
+                        <li><a href="">CONTACT</a> </li>
+                    </ul>
                 </div>
-            </section>
-            <section>
-                <div>
+
+
+            </div>
+        </section>
+        <section class="about-page">
+            <div>
+                <div class="about-page-content white">
                     <p>
-                       
-                        © 2006–2020 The Next Web B.V. Made with <3 in Amsterdam. Powered by 
+                        <img class="footer-img" src="./assets/images/tnw.svg" alt="">
+                        © 2006–2020 The Next Web B.V. Made with in Amsterdam. Powered by
+                        <img class="stackpath-img" src="./assets/images/stackpath.svg" alt="">
                     </p>
                 </div>
-            </section>
+
+            </div>
+        </section>
     </footer>
 </body>
- </html>
+
+</html>

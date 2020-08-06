@@ -1,6 +1,7 @@
 /*GLOBAL*/
+
 body {
-    height: 3000px;
+    /*overflow-x: hidden;*/
 }
 
 .flex {
@@ -42,9 +43,14 @@ a {
     padding: 5px 20px;
 }
 
+.first-navbar ul li {
+    margin-right: 10px;
+}
+
 .first-navbar li a,
 .fa-caret-down,
-.funding-links {
+.funding-links,
+.footer-ul-links ul li a {
     color: #555;
 }
 
@@ -52,20 +58,32 @@ a {
     color: #fff !important;
 }
 
-nav li {
-    margin: 0 8px;
-}
-
-.first-navbar .left li {
-    margin: 0 8px;
-}
-
 .second-nav-bar {
-    justify-content: space-between;
+    /*justify-content: space-between;
     padding-top: 20px;
-    margin-left: 20px;
-    position: fixed;
+    margin-left: 30px;
+    background-color: #fff;
+    width: 100%;*/
+    /*grid-template-columns: 90% 10%;*/
+}
 
+.second-nav-bar-div {}
+
+.second-nav-links {
+    background-color: gold;
+    width: 80%;
+    font-size: 14px;
+    padding: 18px 12px 0;
+}
+
+.nav-li {
+    right: 60px;
+}
+
+.search {
+    float: right;
+    right: 560px;
+    bottom: 20px;
 }
 
 .second-nav-bar li a,
@@ -82,8 +100,7 @@ nav li {
 .latest-news a:hover,
 .latest-news-content p a:hover,
 .most-popular-image a:hover,
-.list-items li a:hover
-{
+.list-items li a:hover {
     color: #000;
 }
 
@@ -210,8 +227,13 @@ span {
     justify-content: space-between;
 }
 
+.latest-funding-links {
+    background-color: green;
+    width: 1500px;
+}
+
 .latest-funding-links li a {
-    margin-right: 5px;
+    /*margin-right: 5px;*/
 }
 
 .latest-funding-links ul li,
@@ -375,20 +397,21 @@ a {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
-}    
+}
 
 /* FOOTER */
 
 .section-one {
-    background-color : #131313;
-    flex-direction: column; 
-    
+    background-color: #131313;
+    flex-direction: column;
+
 }
 
 .social-icons-div {
-     height: 100px;
-     padding-top: 50px;
+    height: 100px;
+    padding-top: 50px;
 }
+
 .social-sites-icons {
     justify-content: space-between;
     align-items: center;
@@ -409,3 +432,42 @@ a {
 
 }
 
+.footer-ul-div {
+    bottom: 30px;
+}
+
+.footer-ul-div ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.footer-ul-links {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.footer-ul-links ul li {
+    font-weight: bold;
+}
+
+.footer-ul-links ul li a:hover {
+    color: #fff;
+}
+
+.about-page {
+    padding: 25px 0;
+    background-color: #000;
+}
+
+.about-page-content {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.footer-img {
+    width: 35px;
+}
+
+.stackpath-img {
+    width: 70px;
+}
