@@ -334,3 +334,18 @@ span,
 .list-items hr {
     opacity: 0.2;
 }
+
+/* FOOTER */
+
+.section-one {
+    background-color : #131313;
+   
+}
+
+.social-sites-icons {
+    margin: 0 auto;
+    background-color: red;
+    justify-content: center;
+    
+    
+}
