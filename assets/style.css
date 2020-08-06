@@ -125,7 +125,6 @@ a {
    height: 100px;
    right:200px;
    
-   
 }
 .showcase-section {
     grid-template-columns: 2fr 1fr;
@@ -253,10 +252,6 @@ span {
     width: 1500px;
 }
 
-.latest-funding-links li a {
-    /*margin-right: 5px;*/
-}
-
 .latest-funding-links ul li,
 .second-nav-bar ul li,
 .first-navbar ul li {
@@ -326,7 +321,15 @@ span {
 }
 
 .most-popular-image {
-    background-image: url(./images/most-popular-image.jpg);
+    background: 
+    linear-gradient(
+      337deg,
+      rgba(0, 0, 0, 0.9) 30%,
+      rgba(220, 20, 20, 0.6) 50%
+    ), 
+    url(./images/most-popular-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 200px;
     width: 94%;
     margin-top: 20px;
