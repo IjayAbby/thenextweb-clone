@@ -67,10 +67,13 @@ a {
     /*grid-template-columns: 90% 10%;*/
 }
 
+.second-nav-links-span span {
+    margin-right: 10px;
+}
+
 .second-nav-bar-div {}
 
 .second-nav-links {
-    background-color: gold;
     width: 80%;
     font-size: 14px;
     padding: 18px 12px 0;
@@ -86,7 +89,7 @@ a {
     bottom: 20px;
 }
 
-.second-nav-bar li a,
+.second-nav-links-span span a,
 .fa-search {
     color: #b3b3b3;
 }
@@ -96,7 +99,7 @@ a {
     left: 540px;
 }
 
-.second-nav-bar li a:hover,
+.second-nav-links-span span a:hover,
 .latest-news a:hover,
 .latest-news-content p a:hover,
 .most-popular-image a:hover,
@@ -119,31 +122,40 @@ a {
 }
 
 .logo-image {
-   font: 33px;
-   bottom: 390px;
-   width: 10px;
-   height: 100px;
-   right:200px;
-   
+    font: 33px;
+    bottom: 390px;
+    width: 10px;
+    height: 100px;
+    right: 200px;
 }
+
 .showcase-section {
     grid-template-columns: 2fr 1fr;
     margin-top: 50px;
 }
 
+
+
 .main-showcase {
+    background-image: url(./images/main-showcase-image.jpeg);
+    width: 99%;
     width: 99%;
     height: 500px;
-    background: 
-    linear-gradient(
-      337deg,
-      rgba(0, 0, 0, 0.9) 30%,
-      rgba(220, 20, 20, 0.6) 50%
-    ), 
-    url(./images/main-showcase-image.jpeg);
+    height: 500px;
+    background: linear-gradient(337deg,
+            rgba(0, 0, 0, 0.9) 30%,
+            rgba(220, 20, 20, 0.6) 50%),
+        url(./images/main-showcase-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.main-showcase {
+    background-image: url(./images/main-showcase-image.jpeg);
+    width: 99%;
+    height: 500px;
+}
+
 .main-showcase img {
     width: 100%;
     opacity: 0.8;
@@ -154,15 +166,10 @@ a {
 }
 
 .aside-showcase-img {
+    background-image: url(./images/third-image.jpg);
     height: 245px;
     width: 99%;
-    background: 
-    linear-gradient(
-      337deg,
-      rgba(0, 0, 0, 0.9) 30%,
-      rgba(220, 20, 20, 0.6) 50%
-    ), 
-    url(./images/third-image.jpg);
+    background: linear-gradient(27deg, rgba(115, 145, 146, 1) 0D#1010%, rgba(139, 136, 136, 1) 0%, rgba(59, 58, 59, 1) 0%, rgba(58, 57, 58, 1) 0%, rgba(56, 55, 56, 1) 0%, rgba(53, 52, 53, 1) 100%, rgba(77, 74, 77, 0.9430147058823529) 100%, rgba(0, 212, 255, 1) 100%, rgba(21, 21, 22, 1) 100%);
 }
 
 .bottom {
@@ -247,10 +254,8 @@ span {
     justify-content: space-between;
 }
 
-.latest-funding-links {
-    background-color: green;
-    width: 1500px;
-}
+
+
 
 .latest-funding-links ul li,
 .second-nav-bar ul li,
