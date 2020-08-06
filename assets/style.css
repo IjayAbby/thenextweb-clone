@@ -82,7 +82,8 @@ nav li {
 .latest-news a:hover,
 .latest-news-content p a:hover,
 .most-popular-image a:hover,
-.list-items li a:hover {
+.list-items li a:hover
+{
     color: #000;
 }
 
@@ -378,14 +379,33 @@ a {
 
 /* FOOTER */
 
-/* .section-one {
+.section-one {
     background-color : #131313;
+    flex-direction: column; 
+    
 }
 
+.social-icons-div {
+     height: 100px;
+     padding-top: 50px;
+}
 .social-sites-icons {
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
     margin: 0 auto;
-    /* background-color: red; */
-    justify-content: center;
-    
-    
-} */
+}
+
+.social-sites-icons i:hover {
+    background-color: #000;
+}
+
+.social-sites-icons i {
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: #333;
+    padding: 12px;
+    border-radius: 30px;
+
+}
+
