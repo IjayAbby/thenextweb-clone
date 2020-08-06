@@ -254,6 +254,9 @@ span {
     justify-content: space-between;
 }
 
+
+
+
 .latest-funding-links ul li,
 .second-nav-bar ul li,
 .first-navbar ul li {
@@ -323,7 +326,15 @@ span {
 }
 
 .most-popular-image {
-    background-image: url(./images/most-popular-image.jpg);
+    background: 
+    linear-gradient(
+      337deg,
+      rgba(0, 0, 0, 0.9) 30%,
+      rgba(220, 20, 20, 0.6) 50%
+    ), 
+    url(./images/most-popular-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 200px;
     width: 94%;
     margin-top: 20px;
