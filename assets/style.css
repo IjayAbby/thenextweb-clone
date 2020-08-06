@@ -276,7 +276,8 @@ span {
 
 .most-popular-section h2 img,
 .latest-funding-title h4 img,
-.latest-news h1 img {
+.latest-news h1 img,
+.greater-than {
     width: 20px;
 }
 
@@ -344,17 +345,47 @@ a {
     opacity: 0.2;
 }
 
+/* Latest Deals */
+
+.latest-deals-section {
+    margin-bottom: 70px;
+}
+
+.latest-deals-section h4 {
+    margin-left: 60px;
+}
+
+.latest-deals-container {
+    width: 96%;
+    margin: 10px auto;
+
+}
+
+.latest-deals-img {
+    width: 94%;
+}
+
+.latest-deals-content {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.latest-deals-content h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}    
+
 /* FOOTER */
 
-.section-one {
+/* .section-one {
     background-color : #131313;
-   
 }
 
 .social-sites-icons {
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
     justify-content: center;
     
     
-}
+} */
