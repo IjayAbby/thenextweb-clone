@@ -2,7 +2,6 @@
 body {
     height: 3000px;
 }
-
 .flex {
     display: flex;
 }
@@ -79,7 +78,11 @@ nav li {
 }
 
 .second-nav-bar li a:hover,
-.latest-news a:hover {
+.latest-news a:hover,
+.latest-news-content p a:hover,
+.most-popular-image a:hover,
+.list-items li a:hover 
+{
     color: #000;
 }
 
@@ -90,7 +93,9 @@ nav li {
 
 /* SHOWCASE SECTION  */
 
-.image-positioning {
+.image-positioning,
+.most-popular-image
+{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -151,7 +156,8 @@ nav li {
 }
 
 .latest-news h1 a,
-.latest-funding-title h4 a {
+.latest-funding-title h4 a,
+.hard-fork h2 a {
     font-size: 28px;
     font-weight: bold;
 }
@@ -181,12 +187,10 @@ nav li {
 }
 
 .latest-news-content p a,
-span {
+span,
+.most-popular-image a, span
+{
     color: #d0d0d0;
-}
-
-.latest-news-content p a:hover {
-    color: #000;
 }
 
 /* LATEST FUNDING ROUNDS */
@@ -203,7 +207,11 @@ span {
     margin-right: 5px;
 }
 
-.latest-funding-contents {}
+.latest-funding-links ul li,
+.second-nav-bar ul li,
+.first-navbar ul li {
+    list-style-type: none;
+}
 
 .funding-grid {
     width: 96%;
@@ -247,4 +255,82 @@ span {
 
 .seed-funds-div2 p {
     padding: 10px 0 0 0;
+}
+
+/* MOST POPULAR SECTION */
+
+.most-popular-section {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+}
+
+.hard-fork {
+    margin-top: 50px;
+}
+
+.most-popular-section h2 img,
+.latest-funding-title h4 img, 
+.latest-news h1 img
+{
+    width: 20px;
+}
+
+.most-popular-image {
+    background-image: url(./images/most-popular-image.jpg);
+    height: 200px;
+    width: 94%;
+    margin-top: 20px;
+}
+
+.most-popular-contents {
+    padding: 110px 0;
+}
+.most-popular-image h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.latest-section {
+    width: 94%;
+}
+
+.latest-section-contents img {
+    width: 100px;
+}
+
+.latest-section-contents {
+    height: 100px;
+}
+
+.contents {
+    padding: 15px 0 20px 10px;
+    background-color: #fff2f1;
+}
+
+.contents h3 a{
+    font-weight: bold;
+}
+
+.contents h3 a:hover
+{
+    text-decoration: underline;
+} 
+.latest-heading {
+    padding: 0 0 5px 0;
+}
+
+.list-items ,br,li,a{
+    width: 94%;
+}
+
+.list-items li {
+    margin-left: 20px;
+}
+
+.list-items li a {
+    color: #6f6f6f;
+}
+
+.list-items hr {
+    opacity: 0.2;
 }
