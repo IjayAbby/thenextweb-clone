@@ -58,6 +58,10 @@ a {
   color: #fff !important;
 }
 
+.tnw-red-logo {
+  display: none;
+}
+
 .second-nav-links-span span {
   margin-right: 10px;
 }
@@ -172,8 +176,6 @@ a {
 }
 
 .main-showcase-content {
-  /* margin: 320px 0 0 10px; */
-  /*flex-direction: column;*/
   align-items: space-between;
   justify-content: space-around;
 }
@@ -184,13 +186,16 @@ a {
   left: 10px;
 }
 
+.aside-showcase-content {
+  bottom: 10px;
+  left: 10px;
+}
+
 .aside-showcase-content h1 {
   font-size: 28px;
 }
 
-.aside-showcase-content {
-  padding-top: 150px;
-}
+
 
 /* LATEST NEWS SECTION */
 
@@ -215,11 +220,12 @@ a {
 .latest-funding-contents,
 .latest-deals-container {
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 20px;
+  gap: 20px;
 }
 
 .latest-news-content img {
-  width: 280px;
+  width: 100%;
+  
 }
 
 .latest-news-content h4 a:hover {
@@ -375,48 +381,6 @@ span {
   padding: 0 0 5px 0;
 }
 
-/* .list-items
-{
-  width: 94%;
-}
-
-.list-items h4 {
-  margin-left: 20px;
-}
-
-.list-items h4 a {
-  color: #6f6f6f;
-}
-
-.list-items hr {
-  opacity: 0.2;
-} */
-.list-items li {}
-
-/* .list-items {
-  list-style-type: bullets;
- 
-} */
-
-/* .list-items a {
-  padding:15px 0;
-} */
-span {
-  list-style-type: bullets;
-
-}
-
-.list-items a {
-  border-bottom: #6b6969 1px solid;
-  list-style-type: bullets;
-
-  /* padding:15px 0; */
-}
-
-/* .list-items span {
-  list-style-type: bullets;
-} */
-
 .list-items a::before {
   content: "•";
   color: #fe4736;
@@ -490,15 +454,15 @@ span {
 .footer-ul-div ul li {
   margin: 10px;
   list-style: none;
+  font-weight: bold;
 }
 
 .footer-ul-links {
-  width: 25%;
-  margin: 0 auto;
+  width: 100%;
 }
 
-.footer-ul-links ul li {
-  font-weight: bold;
+.footer-ul-links ul {
+  justify-content: center;
 }
 
 .footer-ul-links ul li a:hover {
@@ -523,52 +487,10 @@ span {
   width: 70px;
 }
 
-/* ====  MEDIA QUERIES === */
-
-/* ===mobile version === */
-@media only screen and (max-width: 320px) {
-  .first-navbar {
-    display: none;
-  }
-
-  .showcase-section {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .main-showcase,
-  .aside-showcase {
-    width: 96%;
-    height: 200px;
-    margin: 0 auto;
-    background: linear-gradient(337deg,
-        rgba(0, 0, 0, 0.9) 30%,
-        rgba(220, 20, 20, 0.6) 50%),
-      url(./images/main-showcase-image.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .logo-div {
-    display: none;
-  }
-
-  .showcase-content p,
-  ..showcase-content h1 {
-    background-color: blue;
-    margin-bottom: 20px;
-
-  }
-
-  .showcase-content h1 {
-    font-size: 20px;
-  }
+/* ======================================
+ 
+    MediaQuery-Reporter Styles
+ 
+========================================= */
 
 
-
-
-
-
-
-
-}
