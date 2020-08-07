@@ -127,6 +127,7 @@ a {
   width: 10px;
   height: 100px;
   right: 200px;
+  /* fill: #fff; */
 }
 
 .showcase-section {
@@ -178,7 +179,12 @@ a {
 }
 
 .main-showcase-content {
-  margin: 320px 0 0 10px;
+  /* margin: 320px 0 0 10px; */
+  flex-direction: column;
+  align-items: space-between;
+}
+.content {
+  align-self: flex-end;
 }
 
 .aside-showcase-content h1 {
@@ -369,23 +375,52 @@ span {
   padding: 0 0 5px 0;
 }
 
-.list-items,
-br,
-li,
-a {
+/* .list-items
+{
   width: 94%;
 }
 
-.list-items li {
+.list-items h4 {
   margin-left: 20px;
 }
 
-.list-items li a {
+.list-items h4 a {
   color: #6f6f6f;
 }
 
 .list-items hr {
   opacity: 0.2;
+} */
+.list-items li {
+  
+}
+
+/* .list-items {
+  list-style-type: bullets;
+ 
+} */
+
+/* .list-items a {
+  padding:15px 0;
+} */
+span {
+  list-style-type: bullets;
+ 
+}
+.list-items  a {
+  border-bottom: #6b6969 1px solid;
+  list-style-type: bullets;
+
+  /* padding:15px 0; */
+}
+
+/* .list-items span {
+  list-style-type: bullets;
+} */
+
+.list-items a::before {
+  content: "•";
+  color: #fe4736;
 }
 
 /* Latest Deals */
