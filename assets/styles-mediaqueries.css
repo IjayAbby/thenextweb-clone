@@ -113,6 +113,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
   /* showcase-content */
   .main-showcase {
     height: 250px;
@@ -124,7 +125,7 @@
   }
 
   .showcase-content p {
-    font-size:12px;
+    font-size: 12px;
   }
 
   /* aside-showcase */
@@ -138,14 +139,14 @@
   }
 
   .aside-showcase-content p {
-    font-size: 12px ;
+    font-size: 12px;
   }
 
   /* Latest section */
   .latest-funding-links span {
     display: flex;
     flex-direction: column;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
   }
 
   .latest-funding-links span a {
@@ -163,4 +164,153 @@
   .about-page-content p {
     font-size: 13px;
   }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  /* NAVIGATION */
+  .navigation-section {
+    grid-template-columns: 20% 80%;
+  }
+
+  .first-navbar,
+  .nav-span {
+    display: none;
+  }
+
+  .second-nav-bar {
+    padding: 10px 0;
+  }
+
+  .fa-search {
+    left: 500px;
+    top: 5px;
+    font-size: 20px;
+  }
+
+  .fa-bars {
+    left: 540px;
+    font-size: 25px;
+  }
+
+  /* SHOWCASE */
+  .width-767 {
+    display: block;
+  }
+
+  .main-showcase {
+    display: none;
+  }
+
+  .showcase-section {
+    grid-template-columns: 1fr;
+  }
+
+  .aside-showcase {
+    width: 97%;
+    margin: 0 auto;
+  }
+
+
+  /* LATEST NEWS */
+  .latest-news-article,
+  .latest-news-grid-container,
+  .latest-deals-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-deals,
+  .latest-news-content {
+    display: flex;
+  }
+
+  .latest-deals img,
+  .latest-news-content img {
+    width: 100px;
+  }
+
+  .latest-news-article {
+    padding-left: 5px;
+  }
+
+  .latest-deals-content h6,
+  .latest-news-article,
+  h4 {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .latest-news-article p {
+    font-size: 13px;
+  }
+
+  /* LATEST FUNDING ROUNDS */
+  .latest-funding-title-links {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .latest-funding-links>div span {
+    display: flex;
+    padding: 5px 0;
+  }
+
+  .most-popular-section,
+  .latest-funding-contents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* MOST-POPULAR */
+  .hard-fork {
+    margin-top: 15px;
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .most-popular-image {
+    width: 100%;
+    height: 600px;
+    bottom: 0;
+  }
+
+  .most-popular-contents {
+    height: 5px;
+    position: relative;
+    top: 370px;
+  }
+
+  .latest-section {
+    width: 100%;
+  }
+
+  .latest-section-contents {
+    background-color: #fff2f1;
+    width: 100%;
+  }
+
+  .latest-section-contents img {
+    left: 110px;
+  }
+
+  /* LATSET DEALS */
+  .latest-deals-content {
+    padding-left: 10px;
+  }
+
+  /* FOOTER */
+  .social-sites-icons a {
+    margin-right: 5px;
+  }
+
+  .footer-ul-links ul li {
+    font-size: 13px;
+  }
+
+  .about-page-content {
+    text-align: center;
+  }
+
 }
