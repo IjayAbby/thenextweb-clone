@@ -179,19 +179,26 @@
     display: none;
   }
 
+
+  .second-nav-links-span {
+    justify-content: space-between;
+  }
+
   .second-nav-bar {
     padding: 10px 0;
   }
 
   .fa-search {
-    left: 500px;
-    top: 5px;
+    /* left: 500px; */
+    /* top: 5px; */
     font-size: 20px;
+    display: block;
   }
 
   .fa-bars {
-    left: 540px;
+    /* left: 540px; */
     font-size: 25px;
+    display: block;
   }
 
   /* SHOWCASE */
@@ -289,13 +296,14 @@
   .latest-section-contents {
     background-color: #fff2f1;
     width: 100%;
+    justify-content: space-between;
   }
 
   .latest-section-contents img {
-    left: 110px;
+    display: block;
   }
 
-  /* LATSET DEALS */
+  /* LATEST DEALS */
   .latest-deals-content {
     padding-left: 10px;
   }
