@@ -111,3 +111,56 @@
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+  /* showcase-content */
+  .main-showcase {
+    height: 250px;
+    font-weight: bold;
+  }
+
+  .showcase-content h1 {
+    font-size: 40px;
+  }
+
+  .showcase-content p {
+    font-size:12px;
+  }
+
+  /* aside-showcase */
+  .aside-showcase-img {
+    height: 120px;
+  }
+
+  .aside-showcase-content h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .aside-showcase-content p {
+    font-size: 12px ;
+  }
+
+  /* Latest section */
+  .latest-funding-links span {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px; 
+  }
+
+  .latest-funding-links span a {
+    border: none;
+  }
+
+  /* Footer section */
+
+  .social-sites-icons {
+    width: 50%;
+    font-size: 14px;
+  }
+
+  /* About-page */
+  .about-page-content p {
+    font-size: 13px;
+  }
+}

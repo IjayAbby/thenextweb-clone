@@ -72,19 +72,13 @@ a {
 }
 
 .second-nav-links {
-  width: 80%;
+  width: 100%;
   font-size: 14px;
-  padding: 18px 12px 0;
+  padding: 10px;
 }
 
 .nav-li {
   right: 60px;
-}
-
-.search {
-  float: right;
-  right: 560px;
-  bottom: 20px;
 }
 
 .second-nav-links-span span a,
@@ -92,9 +86,10 @@ a {
   color: #b3b3b3;
 }
 
+
 .fa-search {
   transform: scaleX(-1);
-  left: 540px;
+  left:650px;
 }
 
 .latest-news a:hover,
@@ -257,6 +252,11 @@ span {
 
 .latest-funding-title-links {
   justify-content: space-between;
+}
+
+.latest-funding-links span a {
+  border-right: 1px solid  #fe4736;
+  padding: 0 3px;
 }
 
 .latest-funding-links ul li,
