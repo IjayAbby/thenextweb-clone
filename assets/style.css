@@ -1,4 +1,7 @@
 /* GLOBAL */
+body {
+  overflow-x: hidden;
+}
 
 .flex {
   display: flex;
@@ -67,6 +70,12 @@ a {
   display: none;
 }
 
+.second-nav-links-span {
+  grid-template-columns: 94% 6%;
+  padding: 10px 0 0 13px;
+  bottom: 5px;
+}
+
 .second-nav-links-span span {
   margin-right: 10px;
 }
@@ -89,7 +98,17 @@ a {
 
 .fa-search {
   transform: scaleX(-1);
-  left: 650px;
+}
+
+.menu-search {}
+
+.search {
+  font-size: 20px;
+
+}
+
+.menu {
+  display: none;
 }
 
 .latest-news a:hover,
@@ -105,6 +124,7 @@ a {
   color: #6b6969;
 }
 
+
 /* SHOWCASE SECTION  */
 
 .image-positioning,
@@ -118,13 +138,20 @@ a {
   display: none;
 }
 
+.logo-div {
+  width: 96%;
+  margin: 0 auto;
+  top: 15px;
+}
+
 .logo-image {
+  display: block;
   font: 33px;
   width: 10px;
   height: 100px;
-  right: 100px;
-  top: 20px;
+  /*top: 20px;*/
   color: #fff;
+  /*left: -70px;*/
 }
 
 .release-date {
@@ -387,6 +414,11 @@ span {
 
 .latest-heading {
   padding: 0 0 5px 0;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
 }
 
 .list-items a::before {
