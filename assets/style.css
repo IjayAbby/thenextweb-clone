@@ -33,6 +33,11 @@ a {
 }
 
 /* Navigation bar section */
+.width-1023 {
+  display: none;
+}
+
+
 .first-navbar {
   justify-content: space-between;
   background-color: #131313;
@@ -180,12 +185,7 @@ a {
   justify-content: space-around;
 }
 
-.showcase-content {
-  width: 90%;
-  top: 190px;
-  left: 10px;
-}
-
+.showcase-content,
 .aside-showcase-content {
   bottom: 10px;
   left: 10px;
@@ -225,7 +225,7 @@ a {
 
 .latest-news-content img {
   width: 100%;
-  
+
 }
 
 .latest-news-content h4 a:hover {
@@ -393,7 +393,7 @@ span {
 }
 
 .latest-deals-section h4 {
-  margin-left: 60px;
+  margin-left: 25px;
 }
 
 .latest-deals-container {
@@ -492,5 +492,3 @@ span {
     MediaQuery-Reporter Styles
  
 ========================================= */
-
-
