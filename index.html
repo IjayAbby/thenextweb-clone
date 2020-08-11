@@ -1,880 +1,1178 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/7940b5dc55.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7940b5dc55.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- NAVIGATION SECTION -->
     <nav class="nav-bar flex">
-        <div class="logo-div">
-            <img class="logo" src="./assets/images/tnw-red.svg" alt="">
-        </div>
+      <div class="logo-div">
+        <img class="logo" src="./assets/images/tnw-red.svg" alt="" />
+      </div>
 
-        <div class="nav-flex">
-            <nav class="first-navbar flex width-1023">
-                <div class="split-links flex">
-                    <ul class="first-nav-ul flex">
-                        <li>
-                            <a class="news" href="#">News</a>
-                        </li>
-                        <li>
-                            <a class="flex" href="#">Events <i class="fas fa-caret-down .gray"></i></a>
+      <div class="nav-flex">
+        <nav class="first-navbar flex width-1023">
+          <div class="split-links flex">
+            <ul class="first-nav-ul flex">
+              <li>
+                <a class="news" href="#">News</a>
+              </li>
+              <li>
+                <a class="flex" href="#"
+                  >Events <i class="fas fa-caret-down .gray"></i
+                ></a>
+              </li>
+              <li>
+                <a class="flex" href="#"
+                  >Business <i class="fas fa-caret-down"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#">AMAs</a>
+              </li>
+              <li>
+                <a href="#">Spaces</a>
+              </li>
+              <li>
+                <a href="#">Terms&Conditions</a>
+              </li>
+            </ul>
+            <ul class="right flex">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Advertise</a>
+              </li>
+              <li>
+                <a href="#">Jobs</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-                        </li>
-                        <li>
-                            <a class="flex" href="#">Business <i class="fas fa-caret-down"></i></a>
-
-                        </li>
-                        <li>
-                            <a href="#">AMAs</a>
-                        </li>
-                        <li>
-                            <a href="#">Spaces</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms&Conditions</a>
-                        </li>
-                    </ul>
-                    <ul class="right flex">
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Advertise</a>
-                        </li>
-                        <li>
-                            <a href="#">Jobs</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-
-            <!-- SECOND-NAV-BAR -->
-            <div class="second-nav-bar flex white grid">
-                <div class="second-nav-links flex">
-                    <div class="second-nav-links-span flex width-1023">
-                        <span>
-                            <a href="#">LATEST</a>
-                        </span>
-                        <span class="nav-span relative">
-                            <a href="#">HARD FORK</a>
-                        </span>
-                        <span class="nav-span relative">
-                            <a href="#">PLUGGED</a>
-                        </span>
-                        <span class="nav-span relative">
-                            <a href="#">README</a>
-                        </span>
-                        <span class="nav-span relative">
-                            <a href="#">GROWTH QUARTERS</a>
-                        </span>
-                        <span class="nav-span relative">
-                            <a href="#">SHIFT</a>
-                        </span>
-                        <span class="nav-span relative">
-                            <a href="#">NEUTRAL</a>
-                        </span>
-                    </div>
-                    <div class="lens-menu">
-                        <a href="">
-                            <i class="fas fa-search"></i>
-                        </a>
-
-                        <a href="">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </div>
-                </div>
-
+        <!-- SECOND-NAV-BAR -->
+        <div class="second-nav-bar flex white grid">
+          <div class="second-nav-links flex">
+            <div class="second-nav-links-span flex width-1023">
+              <span>
+                <a href="#">LATEST</a>
+              </span>
+              <span class="nav-span relative">
+                <a href="#">HARD FORK</a>
+              </span>
+              <span class="nav-span relative">
+                <a href="#">PLUGGED</a>
+              </span>
+              <span class="nav-span relative">
+                <a href="#">README</a>
+              </span>
+              <span class="nav-span relative">
+                <a href="#">GROWTH QUARTERS</a>
+              </span>
+              <span class="nav-span relative">
+                <a href="#">SHIFT</a>
+              </span>
+              <span class="nav-span relative">
+                <a href="#">NEUTRAL</a>
+              </span>
             </div>
+            <div class="lens-menu">
+              <a href="">
+                <i class="fas fa-search"></i>
+              </a>
+
+              <a href="">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
+          </div>
         </div>
-
+      </div>
     </nav>
-
 
     <!-- SHOWCASE SECTION -->
 
     <section class="showcase-section grid">
-        <div class="main-showcase relative">
-            <div class="mobile-showcase-content absolute relative">
-                <div class="showcase-logo-div relative">
-                    <img class="showcase-logo" src="./assets/images/tnw.svg" alt="">
-                </div>
+      <div class="main-showcase relative">
+        <div class="mobile-showcase-content absolute relative">
+          <div class="showcase-logo-div relative">
+            <img class="showcase-logo" src="./assets/images/tnw.svg" alt="" />
+          </div>
 
-                <p>TECH</p>
-                <h1>Why the UK’s decarbonization plan is good, but not great</h1>
-                <p>by The Conversation 1 hour ago 6</p>
-
-            </div>
+          <p>TECH</p>
+          <h1>Why the UK’s decarbonization plan is good, but not great</h1>
+          <p>by The Conversation 1 hour ago 6</p>
         </div>
-        <div class="aside-showcase-div relative">
-            <div class="aside-showcase aside-showcase-1 relative">
-                <div class="mobile-showcase-content  absolute">
-                    <p>TECH</p>
-                    <h1>Why the UK’s decarbonization plan is good, but not great</h1>
-                    <p>by The Conversation 1 hour ago 6</p>
-
-                </div>
-            </div>
-            <div class="aside-showcase">
-                <div class="mobile-showcase-content absolute">
-                    <p>TECH</p>
-                    <h1>Why the UK’s decarbonization plan is good, but not great</h1>
-                    <p>by The Conversation 1 hour ago 6</p>
-
-                </div>
-            </div>
+      </div>
+      <div class="aside-showcase-div relative">
+        <div class="aside-showcase aside-showcase-1 relative">
+          <div class="mobile-showcase-content absolute">
+            <p>TECH</p>
+            <h1>Why the UK’s decarbonization plan is good, but not great</h1>
+            <p>by The Conversation 1 hour ago 6</p>
+          </div>
         </div>
-
+        <div class="aside-showcase">
+          <div class="mobile-showcase-content absolute">
+            <p>TECH</p>
+            <h1>Why the UK’s decarbonization plan is good, but not great</h1>
+            <p>by The Conversation 1 hour ago 6</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- LATEST NEWS SECTION -->
     <section class="latest-news-section">
-        <h1 class="orange">Latest news <img class="greater-than" src="./assets/images/greater-than.svg" alt=""></h1>
-        <div class="latest-news-grid grid">
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/second-showcase-image.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-
+      <h1 class="orange">
+        Latest news
+        <img
+          class="greater-than"
+          src="./assets/images/greater-than.svg"
+          alt=""
+        />
+      </h1>
+      <div class="latest-news-grid grid">
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
         </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/second-showcase-image.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- LATEST FUNDING ROUNDS -->
     <section class="latest-funding-rounds">
-        <div class="latest-funding-title-links">
-            <div class="latest-funding-title">
-                <h1><a class="orange" href="">Latest funding rounds on Index.co
-                    </a>
-                </h1>
-            </div>
-            <div cldivass="latest-funding-links">
-                <ul class="flex funding-links-right">
-                    <li><a class="orange" href="">Add info </a></li>
-                    <li><a class="orange" href="">Get updates by email </a></li>
-                    <li><a class="orange" href="">See more</a></li>
-                </ul>
-            </div>
+      <div class="latest-funding-title-links">
+        <div class="latest-funding-title">
+          <h1>
+            <a class="orange" href="">Latest funding rounds on Index.co </a>
+          </h1>
         </div>
-        <div class="grid latest-funding-contents">
-            <div class="funding-grid relative width-768">
-                <div class="weezy">
-                    <h4>WEEZY</h4>
-                </div>
-                <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
-                    alt="">
-                <div class="seed-funds">
-                    <p>4.8M</p>
-                    <p>seed fund</p>
-                </div>
-                <div class="seed-funds-div2">
-                    <p>Security</p>
-                    <p>CRV</p>
-                </div>
-                <hr>
-                <div class="">
-
-                    <p>
-                        GreyNoise announces $4.8M seed <br> investment to filter harmless security <br> alerts <a
-                            class="funding-links" href="">on
-                            TechCrunch</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="funding-grid relative">
-                <div class="weezy">
-                    <h4>WEEZY</h4>
-                </div>
-                <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
-                    alt="">
-                <div class="seed-funds">
-                    <p>4.8M</p>
-                    <p>seed fund</p>
-                </div>
-                <div class="seed-funds-div2">
-                    <p>Security</p>
-                    <p>CRV</p>
-                </div>
-                <hr>
-                <div class="">
-
-                    <p>
-                        GreyNoise announces $4.8M seed <br> investment to filter harmless security <br> alerts <a
-                            class="funding-links" href="">on
-                            TechCrunch</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="funding-grid relative">
-                <div class="weezy">
-                    <h4>WEEZY</h4>
-                </div>
-                <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
-                    alt="">
-                <div class="seed-funds">
-                    <p>4.8M</p>
-                    <p>seed fund</p>
-                </div>
-                <div class="seed-funds-div2">
-                    <p>Security</p>
-                    <p>CRV</p>
-                </div>
-                <hr>
-                <div class="">
-
-                    <p>
-                        GreyNoise announces $4.8M seed <br> investment to filter harmless security <br> alerts <a
-                            class="funding-links" href="">on
-                            TechCrunch</a>
-                    </p>
-                </div>
-            </div>
-            <div class="funding-grid relative">
-                <div class="weezy">
-                    <h4>WEEZY</h4>
-                </div>
-                <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
-                    alt="">
-                <div class="seed-funds">
-                    <p>4.8M</p>
-                    <p>seed fund</p>
-                </div>
-                <div class="seed-funds-div2">
-                    <p>Security</p>
-                    <p>CRV</p>
-                </div>
-                <hr>
-                <div class="">
-
-                    <p>
-                        GreyNoise announces $4.8M seed <br> investment to filter harmless security <br> alerts <a
-                            class="funding-links" href="">on
-                            TechCrunch</a>
-                    </p>
-                </div>
-            </div>
+        <div cldivass="latest-funding-links">
+          <ul class="flex funding-links-right">
+            <li><a class="orange" href="">Add info </a></li>
+            <li><a class="orange" href="">Get updates by email </a></li>
+            <li><a class="orange" href="">See more</a></li>
+          </ul>
         </div>
+      </div>
+      <div class="grid latest-funding-contents">
+        <div class="funding-grid relative width-768">
+          <div class="weezy">
+            <h4>WEEZY</h4>
+          </div>
+          <img
+            src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
+            alt=""
+          />
+          <div class="seed-funds">
+            <p>4.8M</p>
+            <p>seed fund</p>
+          </div>
+          <div class="seed-funds-div2">
+            <p>Security</p>
+            <p>CRV</p>
+          </div>
+          <hr />
+          <div class="">
+            <p>
+              GreyNoise announces $4.8M seed <br />
+              investment to filter harmless security <br />
+              alerts <a class="funding-links" href="">on TechCrunch</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="funding-grid relative">
+          <div class="weezy">
+            <h4>WEEZY</h4>
+          </div>
+          <img
+            src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
+            alt=""
+          />
+          <div class="seed-funds">
+            <p>4.8M</p>
+            <p>seed fund</p>
+          </div>
+          <div class="seed-funds-div2">
+            <p>Security</p>
+            <p>CRV</p>
+          </div>
+          <hr />
+          <div class="">
+            <p>
+              GreyNoise announces $4.8M seed <br />
+              investment to filter harmless security <br />
+              alerts <a class="funding-links" href="">on TechCrunch</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="funding-grid relative">
+          <div class="weezy">
+            <h4>WEEZY</h4>
+          </div>
+          <img
+            src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
+            alt=""
+          />
+          <div class="seed-funds">
+            <p>4.8M</p>
+            <p>seed fund</p>
+          </div>
+          <div class="seed-funds-div2">
+            <p>Security</p>
+            <p>CRV</p>
+          </div>
+          <hr />
+          <div class="">
+            <p>
+              GreyNoise announces $4.8M seed <br />
+              investment to filter harmless security <br />
+              alerts <a class="funding-links" href="">on TechCrunch</a>
+            </p>
+          </div>
+        </div>
+        <div class="funding-grid relative">
+          <div class="weezy">
+            <h4>WEEZY</h4>
+          </div>
+          <img
+            src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1280198888205561862%2FQA64B_Fc.jpg&signature=509f803fb23db52b25fac11bd5a180ad"
+            alt=""
+          />
+          <div class="seed-funds">
+            <p>4.8M</p>
+            <p>seed fund</p>
+          </div>
+          <div class="seed-funds-div2">
+            <p>Security</p>
+            <p>CRV</p>
+          </div>
+          <hr />
+          <div class="">
+            <p>
+              GreyNoise announces $4.8M seed <br />
+              investment to filter harmless security <br />
+              alerts <a class="funding-links" href="">on TechCrunch</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- MOST POPULAR SECTION -->
 
-    <section class="most-polpular-section grid">
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+    <section class="most-popular-section grid">
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="hardfork-grid ">
-            <h1 class="orange">HARD FORK</h1>
-            <div class="hardfork-img relative">
-                <div class="hardfork-content absolute white">
-                    <p>MOST POPULAR</p>
-                    <h3>Kodak stock sinks 45% after alleged insider trading halts its pharma pivot</h3>
-                    <p>
-                        David Canellis 20 hours ago</p>
-                </div>
-
-            </div>
-            <div class="hardfork-sub-content flex">
-                <div>
-                    <p>LATEST</p>
-                    <h3>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h3>
-                </div>
-                <div>
-                    <img class="latest-img" src="./assets/images/main-showcase-image.jpeg" alt="">
-                </div>
-            </div>
-            <div class="list-items">
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-                <span>
-                    <a href="">Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock
-                        quadrupled</a>
-                </span>
-            </div>
-
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
         </div>
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+        </div>
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+        </div>
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+        </div>
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+        </div>
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+        </div>
+      </div>
+      <div class="hardfork-grid">
+        <h1 class="orange">HARD FORK</h1>
+        <div class="hardfork-img relative">
+          <div class="hardfork-content absolute white">
+            <p>MOST POPULAR</p>
+            <h3>
+              Kodak stock sinks 45% after alleged insider trading halts its
+              pharma pivot
+            </h3>
+            <p>
+              David Canellis 20 hours ago
+            </p>
+          </div>
+        </div>
+        <div class="hardfork-sub-content flex">
+          <div>
+            <p>LATEST</p>
+            <h3>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h3>
+          </div>
+          <div>
+            <img
+              class="latest-img"
+              src="./assets/images/main-showcase-image.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-items">
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+          <span>
+            <a href=""
+              >Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled</a
+            >
+          </span>
+        </div>
+      </div>
     </section>
 
-
     <!-- LATEST DEALS -->
-    <section class=" latest-news-section">
-        <h1 class="orange">Latest deals <img class="greater-than" src="./assets/images/greater-than.svg" alt=""></h1>
-        <div class="latest-news-grid grid">
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-            <div class="latest-news-div flex">
-                <div class="latest-news-img-div">
-                    <img class="latest-news-img" src="./assets/images/latest-deals.png" alt="">
-                </div>
-                <div class="latest-news-content">
-                    <h1>Beijing arrested a pro-democracy media tycoon in Hong Kong — then his stock quadrupled</h1>
-                    <p>David Canellis 36 minutes ago</p>
-                </div>
-            </div>
-
+    <section class="latest-news-section">
+      <h1 class="orange">
+        Latest deals
+        <img
+          class="greater-than"
+          src="./assets/images/greater-than.svg"
+          alt=""
+        />
+      </h1>
+      <div class="latest-news-grid grid">
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
         </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+        <div class="latest-news-div flex">
+          <div class="latest-news-img-div">
+            <img
+              class="latest-news-img"
+              src="./assets/images/latest-deals.png"
+              alt=""
+            />
+          </div>
+          <div class="latest-news-content">
+            <h1>
+              Beijing arrested a pro-democracy media tycoon in Hong Kong — then
+              his stock quadrupled
+            </h1>
+            <p>David Canellis 36 minutes ago</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER SECTION. -->
     <footer class="footer">
-       <div class="footer-links">
-           <div class="wrapper">
-            <ul class="footer-links-social flex">
-                <li>
-                    <a href="#"><i class="fab fa-facebook-square white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-twitter white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-youtube white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-instagram white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-pinterest-p white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="far fa-envelope white"></i></a>
-                </li>
-            </ul>
-            <ul class="footer-links-menu flex">
-                <li>
-                    <a class="white" href="#">EVENTS</a>
-                </li>
-                <li>
-                    <a class="white" href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a class="white" href="#">ADVERTISE</a>
-                </li>
-                <li>
-                    <a class="white" href="#">JOBS</a>
-                </li>
-            </ul>
-            <ul class="contact ">
-                <li>
-                    <a class="white" href="#">CONTACT</a>
-                </li>
-            </ul>
-           </div>
-       </div>
-        <div class="footer-legal">
-           <div class="wrapper">
-               <span class="first-line white">
-                   <a href="#"><img src="assets/images/tnw.svg" alt=""></a>© 2006–2020 The Next Web B.V. 
-                   <span class="second-line">Made with < 3 in Amsterdam.</span>
-               </span>
-               <span class="third-line white">Powered by
-                   <a href="#"><img src="assets/images/stackpath.svg" alt=""></a>
-               </span>
-           </div>
-       </div>
+      <div class="footer-links">
+        <div class="wrapper">
+          <ul class="footer-links-social flex">
+            <li>
+              <a href="#"><i class="fab fa-facebook-square white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-pinterest-p white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-envelope white"></i></a>
+            </li>
+          </ul>
+          <ul class="footer-links-menu flex">
+            <li>
+              <a class="white" href="#">EVENTS</a>
+            </li>
+            <li>
+              <a class="white" href="#">ABOUT</a>
+            </li>
+            <li>
+              <a class="white" href="#">ADVERTISE</a>
+            </li>
+            <li>
+              <a class="white" href="#">JOBS</a>
+            </li>
+            <li>
+              <a class="white width-1024" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <ul class="contact">
+            <li>
+              <a class="white width-320" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div class="wrapper">
+          <span class="first-line white">
+            <a href="#"><img src="assets/images/tnw.svg" alt="" /></a>©
+            2006–2020 The Next Web B.V.
+            <span class="second-line">Made with < 3 in Amsterdam.</span>
+          </span>
+          <span class="third-line white"
+            >Powered by
+            <a href="#"><img src="assets/images/stackpath.svg" alt="" /></a>
+          </span>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
