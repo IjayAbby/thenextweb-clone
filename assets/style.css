@@ -32,7 +32,7 @@ ul {
 }
 
 .gradient {
-  background: 
+  background:
     linear-gradient(
       337deg,
       rgba(0, 0, 0, 0.9) 30%,
@@ -44,6 +44,7 @@ ul {
 .width-1024 {
   display: none;
 }
+
 /* NAVIGATION */
 
 .nav-bar {
@@ -61,7 +62,7 @@ ul {
 
 .fa-bars {
   margin-left: 10px;
-  color: #ff4422;
+  color: #f42;
 }
 
 .width-1023 {
@@ -96,17 +97,15 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(
-      337deg,
-      rgba(0, 0, 0, 0.9) 30%,
-      rgba(220, 20, 20, 0.6) 50%
-    ),
-    url(./images/most-popular-image.jpg);
 }
 
 .mobile-showcase-content {
-  bottom: 2pxpx;
+  bottom: 2px;
   left: 10px;
+}
+
+h1 {
+  font-size: 28px;
 }
 
 .mobile-showcase-content h1 {
@@ -118,13 +117,6 @@ ul {
 }
 
 /* LATEST NEWS SECTION */
-h1 {
-  font-size: 28px;
-}
-
-.greater-than {
-  width: 20px;
-}
 
 .latest-news-img {
   width: 80px;
@@ -240,8 +232,8 @@ h1 {
   flex-direction: column;
 }
 
-/******* =====================================
-MEDIA QUERIES==========================********/
+/* ****** =====================================
+MEDIA QUERIES==========================******* */
 
 @media only screen and (min-width: 1024px) {
   /* ====== NAVIGATION ====== */
@@ -249,9 +241,11 @@ MEDIA QUERIES==========================********/
   .fa-bars {
     display: none;
   }
+
   .width-1024 {
     display: block;
   }
+
   .width-1023 {
     display: block;
   }
@@ -270,6 +264,11 @@ MEDIA QUERIES==========================********/
 
   .nav-flex {
     width: 100%;
+  }
+
+  .funding-links-right li {
+    padding: 0 5px;
+    border-right: 1px solid #fe4736;
   }
 
   .first-navbar ul li {
@@ -313,7 +312,6 @@ MEDIA QUERIES==========================********/
   }
 
   .fa-search {
-    /*margin-left: 200px;*/
     position: absolute;
     right: 10px;
   }
@@ -369,6 +367,11 @@ MEDIA QUERIES==========================********/
     flex-direction: column;
   }
 
+  span img {
+    width: 37px;
+    height: 9px;
+  }
+
   .latest-news-div img {
     width: 100%;
   }
@@ -382,11 +385,6 @@ MEDIA QUERIES==========================********/
   .funding-links-right {
     display: flex;
     flex-direction: row;
-  }
-
-  .funding-links-right li {
-    padding: 0 5px;
-    border-right: 1px solid #fe4736;
   }
 
   /* MOST POPULAR */
@@ -460,11 +458,6 @@ MEDIA QUERIES==========================********/
     padding: 50px 0;
     background-color: #000;
     display: block;
-  }
-
-  span img {
-    width: 37px;
-    height: 9px;
   }
 }
 
@@ -682,7 +675,12 @@ MEDIA QUERIES==========================********/
 
   .latest-news-div {
     display: grid;
-    grid-template-columns: 20%80%;
+    grid-template-columns: 20% 80%;
+  }
+
+  span img {
+    width: 37px;
+    height: 9px;
   }
 
   .latest-news-img-div img {
@@ -768,11 +766,6 @@ MEDIA QUERIES==========================********/
     padding: 50px 0;
     background-color: #000;
     display: block;
-  }
-
-  span img {
-    width: 37px;
-    height: 9px;
   }
 }
 
