@@ -35,7 +35,7 @@ Additional description about the project and its features.
 
 6. Once the repository has been cloned, open main.html in a browser of your choice.
 
-7.The project can also be found at https://www.theodinproject.com/courses/html-and-css/lessons/building-with-responsive-design
+7. The project can also be found at https://www.theodinproject.com/courses/html-and-css/lessons/building-with-responsive-design
 
 8. Enjoy!
 
