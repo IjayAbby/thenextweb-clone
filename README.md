@@ -2,7 +2,7 @@
 
 > The Next Web Clone is the sixth project on  Microverse HTML & CSS Curriculum testing on Building with responsive design.Here we have the use of Grids , Flex and Float . In addition the use of media queries to make the site responsive comes to play.
 
-![screenshot](./app_screenshot.png)
+![Screenshot from 2020-08-11 21-32-16](https://user-images.githubusercontent.com/43843720/89935285-9aa53480-dc1a-11ea-8149-551088a6a290.png)
 
 Additional description about the project and its features.
 
