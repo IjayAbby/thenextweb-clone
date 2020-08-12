@@ -2,7 +2,7 @@
 
 > This project consists of replicating The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.Here we have the use of Grids , Flex and Float . In addition the use of media queries to make the site responsive comes to play.
 
-![screenshot-127 0 0 1_5500-2020 08 12-15_42_22](https://user-images.githubusercontent.com/43843720/90016970-8103fb80-dcb3-11ea-876f-abc881646f9a.png)
+![screenshot-127 0 0 1_5500-2020 08 12-16_00_29](https://user-images.githubusercontent.com/43843720/90018139-25d30880-dcb5-11ea-8f7f-3cf6f664206d.png)
 
 Additional description about the project and its features.
 
