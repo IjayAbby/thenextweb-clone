@@ -1,8 +1,8 @@
 # The Next Web Clone.
 
-> The Next Web Clone is the sixth project on  Microverse HTML & CSS Curriculum testing on Building with responsive design.Here we have the use of Grids , Flex and Float . In addition the use of media queries to make the site responsive comes to play.
+> This project consists of replicating The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.Here we have the use of Grids , Flex and Float . In addition the use of media queries to make the site responsive comes to play.
 
-![Screenshot from 2020-08-11 21-32-16](https://user-images.githubusercontent.com/43843720/89935285-9aa53480-dc1a-11ea-8149-551088a6a290.png)
+![screenshot-127 0 0 1_5500-2020 08 12-15_42_22](https://user-images.githubusercontent.com/43843720/90016970-8103fb80-dcb3-11ea-876f-abc881646f9a.png)
 
 Additional description about the project and its features.
 
@@ -27,11 +27,11 @@ Additional description about the project and its features.
 3. Copy and paste the following code into the Terminal:
 
 
-    git clone https://github.com/IjayAbby/thenextweb-clone.git
+   ``` git clone https://github.com/IjayAbby/thenextweb-clone.git```
 
-4. Hit enter.
+4. `Hit enter.`
 
-5. Run npm install in the terminal to get all the dependencies installed locally.
+5. `Run npm install in the terminal to get all the dependencies installed locally.`
 
 6. Once the repository has been cloned, open main.html in a browser of your choice.
 
