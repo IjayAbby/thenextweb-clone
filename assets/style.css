@@ -99,10 +99,8 @@ ul {
   background:
     linear-gradient(
       337deg,
-      rgba(0, 0, 0, 0.9)
-      30%,
-      rgba(220, 20, 20, 0.6)
-      50%
+      rgba(0, 0, 0, 0.9) 30%,
+      rgba(220, 20, 20, 0.6) 50%
     ),
     url(./images/most-popular-image.jpg);
   background-position: center center;
@@ -401,12 +399,7 @@ MEDIA QUERIES==========================******* */
 
   .logo-div {
     height: 70px;
-    background:
-      linear-gradient(
-        to bottom right,
-        #c09,
-        #f42 85%
-      );
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
   }
 
   .logo {
@@ -560,15 +553,16 @@ MEDIA QUERIES==========================******* */
     width: 37px;
     height: 9px;
   }
-
 }
+
 @media only screen and (min-width: 1024px) {
   /* ====== NAVIGATION ====== */
 
-  body  {
+  body {
     margin: 0;
     padding: 0;
   }
+
   .logo-div,
   .fa-bars,
   .hide {
@@ -585,12 +579,6 @@ MEDIA QUERIES==========================******* */
 
   .width-320 {
     display: none;
-  }
-
-  .split-links {
-    background-color: #131313;
-    height: 32px;
-    align-items: center;
   }
 
   .split-links,
@@ -615,12 +603,6 @@ MEDIA QUERIES==========================******* */
 
   .first-navbar li a {
     color: #555;
-  }
-
-  .split-links {
-    background-color: #131313;
-    height: 32px;
-    align-items: center;
   }
 
   /* second-nav-bar */
@@ -693,10 +675,6 @@ MEDIA QUERIES==========================******* */
   .mobile-showcase-content {
     bottom: 2px;
     left: 5px;
-  }
-
-  .mobile-showcase-content .release-date {
-    display: block;
   }
 
   .aside-showcase > div h1 {
@@ -811,5 +789,4 @@ MEDIA QUERIES==========================******* */
     background-color: #000;
     display: block;
   }
-
 }
