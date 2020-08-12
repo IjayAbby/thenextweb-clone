@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/IjayAbby/thenextweb-clone/development/index.html)
+[Live Demo Link](https://ijayabby.github.io/thenextweb-clone/)
 
 
 ## Getting Started
