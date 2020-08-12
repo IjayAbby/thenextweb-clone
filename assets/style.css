@@ -641,6 +641,10 @@ MEDIA QUERIES==========================******* */
     right: 20px;
   }
 
+  .mobile-showcase-content .release-date {
+    display: block;
+  }
+
   .main-showcase {
     height: 400px;
   }
