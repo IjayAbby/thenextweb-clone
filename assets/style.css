@@ -37,6 +37,10 @@ ul {
   color: #fff;
 }
 
+.greater-than {
+  width: 20px;
+}
+
 /* NAVIGATION */
 
 .nav-bar,
