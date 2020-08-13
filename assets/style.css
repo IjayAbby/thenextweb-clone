@@ -117,6 +117,7 @@ ul {
 
 h1 {
   font-size: 28px;
+  margin-left: 11px;
 }
 
 .showcase-heading {
@@ -422,7 +423,7 @@ MEDIA QUERIES==========================******* */
 
   nav {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 10% 85%;
   }
 
   /* SHOWCASE */
@@ -434,12 +435,17 @@ MEDIA QUERIES==========================******* */
   }
 
   .main-showcase {
-    height: 500px;
+    height: 450px;
+    width: 100%;
+  }
+
+  .aside-showcase-div {
     width: 100%;
   }
 
   .aside-showcase {
-    height: 243px;
+    height: 218px;
+    width: 300px;
   }
 
   .main-showcase > div h1 {
@@ -461,6 +467,11 @@ MEDIA QUERIES==========================******* */
 
   .latest-news-img {
     width: 100%;
+  }
+
+  .latest-news-grid {
+    width: 98%;
+    margin: 0 auto;
   }
 
   /* LATEST FUNDING-ROUNDS */
@@ -550,7 +561,7 @@ MEDIA QUERIES==========================******* */
 
   .footer-legal {
     width: 100%;
-    height: 100px;
+    height: 1px;
     padding: 50px 0;
     background-color: #000;
     display: block;
@@ -568,6 +579,7 @@ MEDIA QUERIES==========================******* */
   body  {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
   .logo-div,
   .fa-bars,
@@ -679,10 +691,12 @@ MEDIA QUERIES==========================******* */
 
   .main-showcase {
     height: 400px;
+    width: 100%;
   }
 
   .aside-showcase {
     height: 47%;
+    width: 96%;
   }
 
   .main-showcase > div h1 {
@@ -801,7 +815,7 @@ MEDIA QUERIES==========================******* */
 
   .footer-legal {
     width: 100%;
-    height: 100px;
+    height: 1px;
     padding: 50px 0;
     background-color: #000;
     display: block;
