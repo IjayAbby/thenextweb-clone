@@ -710,6 +710,13 @@ MEDIA QUERIES==========================******* */
     gap: 1em;
   }
 
+  .latest-news-section,
+  .latest-funding-rounds,
+  .most-popular-section {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
   .latest-news-div {
     flex-direction: column;
   }
